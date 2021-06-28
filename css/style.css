@@ -1,0 +1,476 @@
+/* ================common css start============ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+/* ================common css End============ */
+
+
+/* ================header css start============ */
+
+header .main .logo {
+    width: 20%;
+    margin-top: 70px;
+}
+
+header .main .nav-text {
+    width: 80%;
+}
+
+header .main .nav-text ul {
+    text-align: right;
+}
+
+header .main .nav-text ul li {
+    display: inline-block;
+    margin-left: 121px;
+    margin-top: 70px;
+}
+
+header .main .nav-text ul li a {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+header .main .nav-text ul li a:hover {
+    color: #0f0f0f;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ================header css End============ */
+
+/* ================Banner css start============ */
+
+#banner-part .img {
+    margin-top: 74px;
+}
+
+#banner-part .img img {
+    width: 100%;
+}
+
+/* ================Banner css End============ */
+
+/* ================about css start============ */
+
+#about-part {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#about-part .container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+
+#about-part .text h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#about-part .text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 34px;
+}
+
+#about-part .text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 52px;
+}
+
+#about-part .text a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#about-part .text a:hover {
+    color: #0f0f0f;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ================about css End============ */
+
+/* ================gallery css start============ */
+
+#gallery-part .container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+#gallery-part .main {
+    justify-content: space-between;
+}
+
+#gallery-part .main .item {
+    width: 48%;
+    margin-bottom: 100px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#gallery-part .main .item img {
+    width: 100%;
+}
+
+#gallery-part .main .item h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#gallery-part .main .item h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 34px;
+    margin-left: 20px;
+}
+
+#gallery-part .main .item p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#gallery-part .main .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ================gallery css End============ */
+
+/* ================singup css start============ */
+
+#singup-part{
+    background: #f0f0f0;
+    margin-bottom: 100px;
+}
+
+#singup-part .details{
+    text-align: center;
+}
+
+#singup-part .details h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333; 
+    padding-top: 74px;
+    margin-bottom: 85px;
+}
+
+#singup-part .form input{ 
+    background: transparent;
+    background:#f0f0f0 ;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: #626262;
+    padding-right: 160px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #000;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+#singup-part .form button{ 
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 39%;
+}
+
+#singup-part .form button i{
+    color: #000;
+    font-size: 20px;
+}
+
+
+/* ================singup css End============ */
+
+/* ================gallery02 css End============ */
+
+#gallery-part02{
+    margin-bottom: 200px;
+}
+
+#gallery-part02 .container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+#gallery-part02 .main {
+    justify-content: space-between;
+}
+
+#gallery-part02 .main .item {
+    width: 48%;
+    margin-bottom: 100px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#gallery-part02 .main .item img {
+    width: 100%;
+}
+
+#gallery-part02 .main .item h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#gallery-part02 .main .item h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 34px;
+    margin-left: 20px;
+}
+
+#gallery-part02 .main .item p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#gallery-part02 .main .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#gallery-part02 .button{
+    text-align: center;
+}
+
+#gallery-part02 .button a{
+    border: 1px solid #000;
+    padding: 15px 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#gallery-part02 .button a:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ================gallery02 css End============ */
+
+
+/* ================Footer css start============ */
+
+footer{
+    background: #f0f0f0;
+    height: 100px;
+}
+
+footer .container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+footer .main{
+    justify-content: space-between;
+}
+
+footer .left{
+    width: 20%;
+}
+
+footer .left a {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 100px;
+}
+
+footer .left a span{
+    margin-left: 15px;
+}
+
+footer .right{
+    width: 40%;
+    text-align: right;
+}
+
+footer .right a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 100px;
+}
+
+footer .right a i {
+    margin: 10px;
+    /*border: 2px solid red;
+    */font-size: 16px;
+    color: #626262;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+}
+
+footer .right a .facebook:hover{
+    color:#4267B2 ;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+footer .right a .twiter:hover{
+    color: #1DA1F2;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+footer .right a .instagram:hover{
+    color: #FD1D1D;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ================Footer css End============ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
